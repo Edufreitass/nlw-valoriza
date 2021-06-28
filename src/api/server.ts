@@ -4,7 +4,7 @@ import "express-async-errors";
 
 import { router } from "./routes";
 
-import "./database"
+import "../infrastructure/database"
 
 const app = express();
 
