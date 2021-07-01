@@ -37,7 +37,7 @@ class Compliment {
   created_at: Date;
 
   constructor() {
-    if (!this) {
+    if (!this.id) {
       this.id = uuid();
     }
   }
