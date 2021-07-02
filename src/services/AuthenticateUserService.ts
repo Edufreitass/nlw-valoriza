@@ -1,7 +1,7 @@
 import { compare } from "bcryptjs";
 import { sign } from "jsonwebtoken";
 import { getCustomRepository } from "typeorm"
-import { UsersRepositories } from "../../infrastructure/repositories/UsersRepositories"
+import { UsersRepositories } from "../repositories/UsersRepositories"
 
 interface iAuthenticateRequest {
   email: string;

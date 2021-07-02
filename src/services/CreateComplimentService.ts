@@ -1,6 +1,6 @@
 import { getCustomRepository } from "typeorm"
-import { ComplimentsRepositories } from "../../infrastructure/repositories/ComplimentsRepositories";
-import { UsersRepositories } from "../../infrastructure/repositories/UsersRepositories";
+import { ComplimentsRepositories } from "../repositories/ComplimentsRepositories";
+import { UsersRepositories } from "../repositories/UsersRepositories";
 
 interface IComplimentRequest {
   tag_id: string;
