@@ -26,8 +26,6 @@
 
 ---
 
-## Aula 01 - Liftoff
-
 - O que é NodeJS ?
 
 `
@@ -111,5 +109,13 @@ A maior vantagem em utilizar o Typescript é a possibilidade de adicionar tipos 
 - Executar o server da aplicação de "forma correta" ✅
 
 `$ yarn dev`
+
+- Instalar lib do express para tratar erros
+
+`$ yarn add express-async-errors`
+
+- Comando para criar uma migração através da linha de comando
+
+`$ yarn typeorm migration:create -n CreateTags`
 
 ### README em desenvolvimento... ⚠️🔨
