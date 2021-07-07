@@ -17,9 +17,9 @@
 
 #### Cadastro de Elogios
 
-- [ ] Não é permitido um usuário cadastrar um elogio para si
-- [ ] Não é permitido cadastrar elogios para usuários inválidos
-- [ ] O usuário precisa estar autenticado na aplicação
+- [x] Não é permitido um usuário cadastrar um elogio para si
+- [x] Não é permitido cadastrar elogios para usuários inválidos
+- [x] O usuário precisa estar autenticado na aplicação
 
 ---
 ## Mission: ![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white)
