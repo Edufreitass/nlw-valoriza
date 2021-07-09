@@ -118,4 +118,28 @@ A maior vantagem em utilizar o Typescript é a possibilidade de adicionar tipos 
 
 `$ yarn typeorm migration:create -n CreateTags`
 
+-
+
+yarn add jsonwebtoken
+
+-
+
+yarn add @types/jsonwebtoken -D
+
+-
+
+yarn typeorm migration:create -n AlterUserAddPassword
+
+-
+
+yarn add bcryptj
+
+-
+
+yarn add @types/bcryptj -D
+
+-
+
+yarn typeorm migration:create -n CreateCompliments
+
 ### README em desenvolvimento... ⚠️🔨
