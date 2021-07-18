@@ -60,9 +60,9 @@ A maior vantagem em utilizar o Typescript é a possibilidade de adicionar tipos 
    * DELETE => Remover (Apagar) uma informação
    * PATCH  => Alterar uma informação específica
 
-### 📌 Comandos utilizados na aula
+## 📌 Comandos utilizados na aula
 
-#### Criação 🔨
+### Criação 🔨
 
 `$ yarn init -y`
 
@@ -72,7 +72,7 @@ A maior vantagem em utilizar o Typescript é a possibilidade de adicionar tipos 
 
 `$ yarn typeorm migration:create -n CreateCompliments`
 
-#### Instalação 🆕
+### Instalação 🆕
 
 `$ yarn add typescript -D`
 
@@ -100,7 +100,13 @@ A maior vantagem em utilizar o Typescript é a possibilidade de adicionar tipos 
 
 `$ yarn add @types/bcryptj -D`
 
-#### Execução 🔄
+`$ yarn add class-transformer`
+
+`$ yarn add cors`
+
+`$ yarn add @types/cors -D`
+
+### Execução 🔄
 
 `$ node index.ts`
 
@@ -109,9 +115,3 @@ A maior vantagem em utilizar o Typescript é a possibilidade de adicionar tipos 
 `$ yarn tsc`
 
 `$ yarn dev`
-
-`$ yarn add class-transformer`
-
-`$ yarn add cors`
-
-`$ yarn add @types/cors -D`
