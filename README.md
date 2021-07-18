@@ -62,39 +62,23 @@ A maior vantagem em utilizar o Typescript é a possibilidade de adicionar tipos 
 
 ### 📌 Comandos utilizados na aula
 
-- Criação do projeto
-
-  📝 `-y` usado para pegar às informações padrão de criação do projeto
+#### Criação 🔨
 
 `$ yarn init -y`
 
-- Dependência do Typescript
+`$ yarn typeorm migration:create -n CreateTags`
 
-  📝 `-D` usado para indicar que é uma dependência do ambiente de desenvolvimento
+`$ yarn typeorm migration:create -n AlterUserAddPassword`
+
+`$ yarn typeorm migration:create -n CreateCompliments`
+
+#### Instalação 🆕
 
 `$ yarn add typescript -D`
 
-- Executar uma classe `.ts`
-
-`$ node index.ts`
-
-- Inicializar o Typescript
-
-`$ yarn tsc --init`
-
-- Converter o código Typescript para Javascript
-
-`$ yarn tsc`
-
-- Instalar o `express`
-
 `$ yarn add express`
 
-- Instalar às **tipagens** da biblioteca(lib), neste caso o `express`
-
 `$ yarn add @types/express -D`
-
-- Instalar biblioteca responsável por pegar o código Typescript e converter de uma forma em que o node consiga entender de forma automatizada.
 
 `$ yarn add ts-node-dev -D`
 
@@ -106,40 +90,28 @@ A maior vantagem em utilizar o Typescript é a possibilidade de adicionar tipos 
   }
 ```
 
-- Executar o server da aplicação de "forma correta" ✅
+`$ yarn add express-async-errors`
+
+`$ yarn add jsonwebtoken`
+
+`$ yarn add @types/jsonwebtoken -D`
+
+`$ yarn add bcryptj`
+
+`$ yarn add @types/bcryptj -D`
+
+#### Execução 🔄
+
+`$ node index.ts`
+
+`$ yarn tsc --init`
+
+`$ yarn tsc`
 
 `$ yarn dev`
 
-- Instalar lib do express para tratar erros
+`$ yarn add class-transformer`
 
-`$ yarn add express-async-errors`
+`$ yarn add cors`
 
-- Comando para criar uma migração através da linha de comando
-
-`$ yarn typeorm migration:create -n CreateTags`
-
--
-
-yarn add jsonwebtoken
-
--
-
-yarn add @types/jsonwebtoken -D
-
--
-
-yarn typeorm migration:create -n AlterUserAddPassword
-
--
-
-yarn add bcryptj
-
--
-
-yarn add @types/bcryptj -D
-
--
-
-yarn typeorm migration:create -n CreateCompliments
-
-### README em desenvolvimento... ⚠️🔨
+`$ yarn add @types/cors -D`
